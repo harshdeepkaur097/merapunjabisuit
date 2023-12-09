@@ -3,34 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website Title</title>
+    <title>Your Boutique</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             max-width: 600px;
             margin: 20px auto;
             padding: 20px;
             text-align: center;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+        }
+
+        img {
+            max-width: 150px;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 10px;
         }
 
         h1 {
             color: #333;
+            font-size: 24px;
+            margin-bottom: 20px;
         }
 
-        p {
-            color: #555;
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        li {
+            margin-bottom: 10px;
         }
 
         a {
             color: #007BFF;
             text-decoration: none;
+            font-size: 16px;
+        }
+
+        .whatsapp-link {
+            background-color: #25D366;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        .telegram-link {
+            background-color: #0088cc;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 10px;
+            text-decoration: none;
+            font-size: 16px;
+            display: inline-block;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Our Boutique</h1>
-    <p>Explore our different groups for the latest fashion trends:</p>
+    <img src="C:\Users\Harsh\Desktop\GitHub\merapunjabisuit\images\logo.png" alt="Boutique Logo">
 
+    <h1>Welcome to Our Boutique</h1>
     <ul>
         <li><a href="https://chat.whatsapp.com/LgorHfPI2sT74gQ3j5v11h" target="_blank">Boutique Suits Group</a></li>
         <li><a href="https://chat.whatsapp.com/GiuhFegAsfTHS0oXJUvl87" target="_blank">Simple Suits Group</a></li>
@@ -41,6 +84,8 @@
     </ul>
 
     <p>If you want to order any product from Pinterest, please send the photo on WhatsApp:</p>
-    <p><a href="https://wa.me/+917814687876" target="_blank">Order on WhatsApp: +91 78146 87876</a></p>
+    <a href="https://wa.me/+917814687876" class="whatsapp-link" target="_blank">Order on WhatsApp: +91 78146 87876</a>
+
+    <a href="https://t.me/merapunjabisuit" class="telegram-link" target="_blank">Join our Telegram Group</a>
 </body>
 </html>
